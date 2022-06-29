@@ -1,0 +1,92 @@
+.box{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -366px;
+	margin-top: -212px;
+}
+
+.prepare,.learning,.complete{
+	float: left;
+}
+
+.learning{
+	margin: 0 150px;
+}
+
+.prepare span,.learning span,.complete span{
+	display: block;
+	width: 145px;
+	height: 26px;
+	font-size: 16px;
+	color: #1d1a1a;
+	font-weight: bold;
+	text-align: center;
+}
+.prepare span{
+	background: #f5e0e1;
+}
+
+.learning span{
+	background: #a3d09b;
+}
+
+.complete span{
+	background: #e2e2e2;
+}
+
+.prepare div,.learning div,.complete div{
+	position: relative;
+	width: 145px;
+	height: 380px;
+	margin-top: 18px;
+}
+
+.prepare div{
+	padding-top: 10px;
+	background: #F5E0E1;
+}
+
+.learning div{
+	padding-top: 10px;
+	background: #a3d09b;
+}
+
+.complete div{
+	padding-top: 10px;
+	background: #e2e2e2;
+}
+
+.prepare div input,.learning div input,.complete div input{
+	display: block;
+	margin: 10px auto;
+	width: 110px;
+	height: 26px;
+	text-align: center;
+	outline: none;
+	border: 2px solid #1d1a1a;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.prepare div span{
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	display: block;
+	width: 36px;
+	height: 36px;
+	line-height: 30px;
+	background: white;
+	text-align: center;
+	border-radius: 50%;
+	border: 2px solid #b68989;
+	font-size: 36px;
+	color: #b68989;
+	cursor: pointer;
+}
+
+.learn,.comp{
+	border: 2px solid #13d1ff;
+}

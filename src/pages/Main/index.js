@@ -12,6 +12,7 @@ export default class Login extends React.Component{
 		parent.insertBefore(node,btn);
 		node.setAttribute('draggable','true');
 	}
+	
 	// 拖动节点
 	learn = (event)=>{
 		var input = this.container.current;
@@ -37,7 +38,7 @@ export default class Login extends React.Component{
 					<div className='prepare'>
 						<span>Prepare to study</span>
 						<div>
-							<input type='text' ref={this.container} draggable='true' />
+							<input type='text' ref={this.container}  draggable='true' />
 							<span onClick={this.add}>+</span>
 						</div>
 					</div>
